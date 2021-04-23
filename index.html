@@ -59,7 +59,7 @@
                 </div>
                 <!-- Masthead Subheading-->
                 <p class="masthead-subheading font-weight-light mb-0">18-19 September 2021</p>
-                <p class="countDown py-4 text-center text-white" id="demo"></p>
+                <p class="countDown py-4 text-center text-white" id="Countdown2BSP2021"></p>
                 <script>
                 // Set the date we're counting down to
                 var countDownDate = new Date("Sep 18, 2021 00:00:00").getTime();
@@ -79,14 +79,14 @@
                   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
                   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-                  // Output the result in an element with id="demo"
-                  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+                  // Output the result in an element with id="Countdown2BSP2021"
+                  document.getElementById("Countdown2BSP2021").innerHTML = days + "d " + hours + "h "
                   + minutes + "m " + seconds + "s ";
 
                   // If the count down is over, write some text
                   if (distance < 0) {
                     clearInterval(x);
-                    document.getElementById("demo").innerHTML = "EXPIRED";
+                    document.getElementById("Countdown2BSP2021").innerHTML = "IT'S HERE!";
                   }
                 }, 1000);
                 </script>

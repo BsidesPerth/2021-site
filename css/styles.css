@@ -10122,9 +10122,13 @@ h3 {
 .masthead .masthead-subheading {
   font-size: 1.25rem;
 }
+/* .masthead .masthead-avatar {
+  width: 15rem;
+} */
 .masthead .masthead-avatar {
-  width: 25rem;
+  width: 25vw;
 }
+
 
 @media (min-width: 992px) {
   .masthead {
